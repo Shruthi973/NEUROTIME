@@ -2,9 +2,8 @@
 ```markdown
 # 🧠 fNIRS-Cognify: Interpretable Machine Learning for Early Cognitive Impairment Detection in Parkinson’s Disease
 
-
 <p align="center">
-  <img src="BRAIN_PNG.png" alt="Brain activation and AI interpretability overview" width="850">
+  <img src="./BRAIN_PNG.png" alt="Brain activation and AI interpretability overview" width="850">
 </p>
 
 
