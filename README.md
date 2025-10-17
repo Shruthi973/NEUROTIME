@@ -2,10 +2,7 @@
 ```markdown
 # 🧠 fNIRS-Cognify: Interpretable Machine Learning for Early Cognitive Impairment Detection in Parkinson’s Disease
 
-<p align="center">
-  <img src="./BRAIN_PNG.png" alt="Brain activation and AI interpretability overview" width="850">
-</p>
-
+![Brain activation and AI interpretability overview](BRAIN_PNG.png)
 
 
 ---
@@ -52,18 +49,6 @@ fNIRS-Cognify integrates:
 
 ---
 
-## 🧱 Repository Structure
-
-```
-
-├── FNIRS_DATA_ML4H.zip              # Raw + preprocessed SNIRF data (HbO/HbR signals)
-├── FNIRS_ROI_RESEARCH_ML4H.zip      # Region-of-Interest level GLM summaries
-├── Cleaned_Parkinsons_ML4H.csv      # Clinical & cognitive dataset
-├── glm_simpledt.ipynb               # GLM analysis pipeline using MNE-NIRS
-├── bids_simpledt.ipynb              # BIDS-formatted data ingestion and epoching
-├── fnirs_simulated_data.csv         # Simulated data for pipeline validation
-├── fnirs_report.pdf                 # Statistical results (Freezers vs Non-Freezers)
-└── README.md                        # You are here
 
 ````
 
@@ -226,7 +211,4 @@ Research Assistant, Neurology & Physical Therapy Departments
 
 ```
 
----
 
-
-```
