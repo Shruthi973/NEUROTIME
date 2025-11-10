@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🧠 fNIRS-Cognify: Interpretable Machine Learning for Early Cognitive Impairment Detection in Parkinson’s Disease
 
 <p align="center">
@@ -53,11 +53,6 @@ fNIRS-Cognify integrates:
 
 ---
 
-
-````
-
----
-
 ## 🧰 Tools and Technologies
 
 | Category | Stack / Libraries |
@@ -78,12 +73,12 @@ fNIRS-Cognify integrates:
 - Raw data (.snirf) were imported and annotated using **MNE-BIDS**.
 
 ### Step 2. Preprocessing
-```python
+python
 raw = mne.io.read_raw_snirf('sub-PD005_task-ComplexDT_nirs.snirf', preload=True)
 raw_od = optical_density(raw)
 raw_hb = beer_lambert_law(raw_od)
 raw_hb.filter(l_freq=0.01, h_freq=0.7)
-````
+
 
 * Conversion to Optical Density (OD)
 * Beer-Lambert Law to compute HbO and HbR
@@ -102,9 +97,8 @@ From each ROI (PFC, PMC, SMA, M1, SA), we extract:
 
 Merged with participant-level data:
 
-```
 subject_id, moca_score, phq_score, gad_score, td_pigd_ratio, age, sex
-```
+
 
 ### Step 4. Machine Learning Pipeline
 
@@ -186,11 +180,9 @@ subject_id, moca_score, phq_score, gad_score, td_pigd_ratio, age, sex
 
 ## 📜 Citation
 
-```
 Vudem, S.R., & Longhurst, J. (2025). 
 Predicting Early Cognitive Impairment in Parkinson’s Disease using Dual-Task fNIRS and Interpretable Machine Learning.
 Manuscript in Preparation, ML4H / NeurIPS.
-```
 
 ---
 
@@ -213,6 +205,6 @@ Research Assistant, Neurology & Physical Therapy Departments
 
 *This repository demonstrates how explainable AI applied to real-world neuroimaging time-series can uncover early, actionable biomarkers of cognitive dysfunction in Parkinson’s Disease.*
 
-```
+
 
 
